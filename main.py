@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 
 API_KEY = "ak_prs2g3fsfsn337p750trc5il"
-EMAIL = os.getenv("23f2002788@ds.study.iitm.ac.in", 
+EMAIL = os.getenv("ASSIGNMENT_EMAIL", 
                   "23f2002788@ds.study.iitm.ac.in")
 
 app = FastAPI(title="Q7 Analytics API")
